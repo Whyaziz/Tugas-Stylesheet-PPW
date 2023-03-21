@@ -1,0 +1,140 @@
+body{
+    background-color: #0f0f0f;
+    margin: 0;
+}
+
+.navbar{
+    background-color: #0f0f0f;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #333;
+    
+ }
+.navbar a{
+    margin-top: 10px;
+    font-family: sans-serif;
+    float: left;
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.navbar a:hover{
+    color: red;
+}
+
+.logo{
+    height: 30px;
+    width: 80px;
+}
+
+.simbol{
+    height: 30px;
+}
+
+header{
+    margin: 20px 40px;
+    background-color: #1c1c1b;
+    padding: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+.atention{
+    background-color: red;
+    padding: 2px;
+    border-radius: 4px;
+    color:whitesmoke;
+}
+.merah{
+    color: red;
+    font-weight: normal;
+}
+.search{
+    padding: 10px;
+    height: 10px;
+    width: 250px;
+    float: right;
+    top: 10px;
+    margin: 20px 30px;
+    background-color: #1c1c1b;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.film {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 50px;
+}
+.film-list {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: small;
+    color: whitesmoke;
+    font-family: Verdana;
+}
+.film-list:hover{
+    color: red;
+}
+.poster{
+    border-radius: 5px;
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+footer{
+    background-color: #0f0f0f;
+    margin: 50px 50px;
+    border-bottom: 1px solid #1c1c1b;
+    flex-wrap: wrap;
+}
+hr{
+    width: 100%;
+    color: #1c1c1b;
+}
+.credit{
+    color: whitesmoke;
+    width: 350px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.link-cerdit{
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+}
+.link-cerdit li{
+    margin-top: 10px;
+}
+.link-cerdit a{
+    color: maroon;
+    text-decoration: none;
+}
+.link-cerdit a:hover{
+    color: whitesmoke;
+}
+.link-cerdit label{
+    color: whitesmoke;
+}
+.navbar-bawah{
+    background-color: #0f0f0f;
+    padding: 0;
+    overflow: hidden;
+    margin: 50px;
+}
+.navbar-bawah a{
+   float: right;
+   text-decoration: none;
+   color: whitesmoke;
+   padding: 10px;
+   font-family: sans-serif;
+   border-right: 2px solid gray;
+}
+.navbar-bawah :hover{
+   color: maroon;
+}
